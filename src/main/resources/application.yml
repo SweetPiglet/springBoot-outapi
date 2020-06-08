@@ -1,0 +1,16 @@
+server: 
+  port: 8083
+  servlet:
+    context-path: /lark
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+
+spring:
+  application:
+    name: lark
+    
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
